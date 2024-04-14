@@ -1,0 +1,42 @@
+.header-top {
+    padding: 10px 0;
+    background-color: #f8f9fa;
+}
+
+.header-top-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-top-item {
+    margin-right: 20px;
+}
+
+.header-top-text {
+    margin-left: 5px;
+}
+
+.header-top-actions {
+    display: flex;
+    align-items: center;
+}
+
+.header-top-action {
+    margin-left: 10px;
+}
+
+.header-top-link {
+    text-decoration: none;
+    color: #212529;
+}
+
+.header-top-link:hover {
+    text-decoration: underline;
+}

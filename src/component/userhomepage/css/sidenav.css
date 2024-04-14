@@ -1,0 +1,22 @@
+.sidebar {
+    height: 100%;
+    width: 250px; /* Adjust the width as needed */
+    
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa; /* Change the background color */
+    padding-top: 60px;
+    margin-top: 200px /* Adjust the top padding */
+  }
+
+  .sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #333; /* Change the link color */
+    display: block;
+  }
+
+  .sidebar a:hover {
+    background-color: #e9ecef; /* Change the hover background color */
+  }

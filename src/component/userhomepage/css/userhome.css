@@ -1,0 +1,88 @@
+.cardhead{
+    margin-top: 15px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+    transform: scale(1.05);
+    
+    
+  }
+
+  @keyframes moveCard {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .card {
+    animation: moveCard 0.5s ease-out forwards;
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .card-img-top {
+    animation: slideIn 0.5s ease-out forwards;
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+ .card-des{
+  font-size: large;
+  font-family:'Times New Roman', Times, serif;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  margin-top: 38;
+  
+ }
+
+
+ .card-des:hover{
+    color: rgb(62, 62, 155);
+    
+  
+ }
+
+
+ /*banner button*/
+ .btn-oval {
+  border-radius: 50px;
+  width: 200px;
+font-size: 15px;
+margin-top: 80px;
+margin-left: 0; 
+}
+
+
+
+.card-img-top:hover {
+  transform: translateY(-10px); /* Adjust the value as needed */
+}

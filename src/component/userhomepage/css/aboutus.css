@@ -1,0 +1,49 @@
+/* customStyles.css */
+
+.card {
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Increased padding */
+}
+
+.card h2 {
+  color: #007bff; /* Blue heading color */
+  font-size: 24px; /* Increased font size */
+  margin-bottom: 15px; /* Added margin bottom */
+}
+
+.card p {
+  color: #333333; /* Dark gray text color */
+  font-size: 16px; /* Default font size */
+}
+
+.card p:last-child {
+  margin-bottom: 0; /* Remove bottom margin from last paragraph */
+}
+
+.card-highlight {
+  background-color: #ffc107; /* Yellow background color for highlighted card */
+}
+
+.card-highlight h2 {
+  color: #333333; /* Dark gray heading color */
+}
+
+.card-highlight p {
+  color: #333333; /* Dark gray text color */
+}
+
+/* Additional Styles for Enhanced Attractiveness */
+.card {
+  transition: all 0.3s ease; /* Smooth transition effect on hover */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Move card upwards on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+
+.card h2 {
+  text-transform: uppercase; /* Convert heading text to uppercase */
+}
